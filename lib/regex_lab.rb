@@ -15,7 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  puts("My phone number is " + phone)
-  puts(phone.scan(/\d/).length())
   phone.scan(/\d/).length() == 10 ? true : false
 end
