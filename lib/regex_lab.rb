@@ -16,5 +16,5 @@ end
 
 def valid_phone_number?(phone)
   puts("My phone number is " + phone)
-  puts(phone.scan(/\d/))
+  puts(phone.scan(/\d/).length())
 end
