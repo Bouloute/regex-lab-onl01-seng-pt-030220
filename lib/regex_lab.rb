@@ -12,7 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   puts('Is ' + text + ' capitalized and end with punctuation?')
-  text.match(/\b[A-Z]\w*[^a-z A-Z]/) ? true : false
+  text.match(/\b[A-Z]\w*[^a-zA-Z]/) ? true : false
 end
 
 def valid_phone_number?(phone)
