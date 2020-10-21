@@ -1,4 +1,5 @@
 def starts_with_a_vowel?(word)
+  console.log(word)
   console.log(word.match(/a/))
 end
 
